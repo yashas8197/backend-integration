@@ -21,7 +21,7 @@ const AddMovieForm = () => {
     setFormData((prevState) => ({
       ...prevState,
       [name]:
-        name === "releaseYear" || name === "rating" ? parseInt(value) : value,
+        name === "releaseYear" || name === "rating" ? parseInt(value) : value,  
     }));
   };
 
